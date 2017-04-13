@@ -1,4 +1,4 @@
-4658318fcc04b41647026fd7dd28c2ba *DESCRIPTION
+ba322d536943a4686213b79387ae0af4 *DESCRIPTION
 17ab01a5df93b59930135dc8cbae4358 *NAMESPACE
 6922d32a99a03b0093c3c403ddc3967d *R/wrangle.R
 9ec0d1d30e5c390181eca23eb92d3af0 *man/detect.Rd
@@ -6,12 +6,12 @@
 b803f44ba81aada5d5243e7de2b9bd75 *man/dup.grouped_df.Rd
 203a6d82a89a736afd12c1684e752e3c *man/dupGroups.Rd
 06d4b05be1298a093303ba16eeee3ac6 *man/dupGroups.grouped_df.Rd
-d29ceb88d6d2abd0cfe9c19354cc0d04 *man/enumerate.Rd
+0de098d6d66262c21c23628f979ee5c1 *man/enumerate.Rd
 4da4fd8ebbf9d3fc6eb8c2077b1512da *man/group_by_all.Rd
 7a9d19dc3a18e27100809397ec65ad4e *man/ignore.Rd
 e5704ae9157ab3bfb5ee870ea965268d *man/informative.Rd
 fe0055b8fbe8f5452006caf298580585 *man/informative.data.frame.Rd
-449a802f3dfeda382c76425578265205 *man/itemize.Rd
+6363052952fc38885684de95a802dfb0 *man/itemize.Rd
 d9e93af60232df4b4981cd26abe03611 *man/key.Rd
 029fbf77de58660b3aac5e64ec140c22 *man/key.grouped_df.Rd
 441d2e5969ce729fb2e6be2f228216a0 *man/na.Rd
