@@ -1,6 +1,10 @@
-ba322d536943a4686213b79387ae0af4 *DESCRIPTION
-17ab01a5df93b59930135dc8cbae4358 *NAMESPACE
+c2c1c9b40d3f160c3401bba377c01384 *DESCRIPTION
+c8e95ac8b1ad30346162a77653056a30 *NAMESPACE
+47bef03b4d6009e8f4f473d9f4c32fbf *R/constant.R
 6922d32a99a03b0093c3c403ddc3967d *R/wrangle.R
+92d13dfc27bc02748dc83b3520e2442f *man/constant.Rd
+8d35d44616d59676b5754397e219bee5 *man/constant.data.frame.Rd
+9189de3ea4569c8f3c365cdc303a0289 *man/constant.grouped_df.Rd
 9ec0d1d30e5c390181eca23eb92d3af0 *man/detect.Rd
 55a101ae46f92fcbc1e126bcaf750f0f *man/dup.Rd
 b803f44ba81aada5d5243e7de2b9bd75 *man/dup.grouped_df.Rd

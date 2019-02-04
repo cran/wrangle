@@ -1,8 +1,8 @@
 Package: wrangle
 Type: Package
 Title: A Systematic Data Wrangling Idiom
-Version: 0.4
-Date: 2017-04-13
+Version: 0.5.1
+Date: 2019-01-22
 Author: Tim Bergsma
 Maintainer: Tim Bergsma <bergsmat@gmail.com>
 Description: Supports systematic scrutiny, modification, and integration of
@@ -12,14 +12,14 @@ Description: Supports systematic scrutiny, modification, and integration of
     (returned by unsorted() ). Functions enumerate() and itemize() give 
     sorted unique combinations of columns, with or without occurrence counts,
     respectively. Function ignore() drops columns in x that are present in y,
-    and informative() drops columns in x that are entirely NA. Data that have
-    defined unique combinations of grouping values behave more predictably
-    during merge operations.
+    and informative() drops columns in x that are entirely NA; constant() returns
+    values that are constant, given a key.  Data that have defined unique 
+    combinations of grouping values behave more predictably during merge operations.
 License: GPL-3
 LazyData: TRUE
-Imports: dplyr, tidyr, lazyeval, magrittr
+Imports: dplyr, tidyr, lazyeval, magrittr, rlang
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2017-04-13 21:38:52 UTC; tbergsma
+Packaged: 2019-02-04 14:52:07 UTC; tbergsma
 Repository: CRAN
-Date/Publication: 2017-04-13 22:30:46 UTC
+Date/Publication: 2019-02-04 15:10:03 UTC
