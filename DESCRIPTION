@@ -1,7 +1,7 @@
 Package: wrangle
 Type: Package
 Title: A Systematic Data Wrangling Idiom
-Version: 0.5.2
+Version: 0.5.5
 Author: Tim Bergsma
 Maintainer: Tim Bergsma <bergsmat@gmail.com>
 Description: Supports systematic scrutiny, modification, and integration of
@@ -15,10 +15,9 @@ Description: Supports systematic scrutiny, modification, and integration of
     values that are constant, given a key.  Data that have defined unique 
     combinations of grouping values behave more predictably during merge operations.
 License: GPL-3
-LazyData: TRUE
-Imports: dplyr, tidyr, lazyeval, magrittr, rlang
-RoxygenNote: 6.0.1
+Imports: dplyr, tidyr, magrittr, rlang
+RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2019-04-24 21:09:27 UTC; tbergsma
+Packaged: 2021-12-20 20:43:51 UTC; tim.bergsma
 Repository: CRAN
-Date/Publication: 2019-04-25 05:00:03 UTC
+Date/Publication: 2021-12-20 21:00:02 UTC
