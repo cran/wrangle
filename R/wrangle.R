@@ -144,7 +144,7 @@ key.grouped_df <- function(x,...)sapply(groups(x),as.character)
 # @describeIn wrangle
 
 unsorted.grouped_df <- function(x,...){
-  x$original_ <- seq_len(nrow(x))
+  x$original_ <- as.double(seq_len(nrow(x)))
   x$leads_ <- lead(x$original_,default=Inf)
   x$lags_ <- lag(x$original_,default=-Inf)
   x %<>% sort
