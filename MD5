@@ -1,4 +1,4 @@
-b2e4958cbb74a88c6c044efbc1801c74 *DESCRIPTION
+e707db8070b7d22ce0ff8c90e7e005fb *DESCRIPTION
 269cfd8b0fa1c1ae444fab3cf81b768b *NAMESPACE
 47bef03b4d6009e8f4f473d9f4c32fbf *R/constant.R
 d001f591a2335345dd7287b38ddbd04d *R/safejoin.R
@@ -22,8 +22,8 @@ bc0e172c7684f9c75774b5b59af2304f *man/na.Rd
 bf580eb6f54bdafce17bbe6e76eb1097 *man/na.grouped_df.Rd
 a2e3e836e8fc30e244b6e1e7cf85bda2 *man/naGroups.Rd
 114f5cf2d83c2109886387974f8f62a6 *man/naGroups.grouped_df.Rd
-bba961d5df05b53776309dc6c2f4efe8 *man/safe_join.Rd
-332ee0b56ba09e869502e88b4e746068 *man/safe_join.data.frame.Rd
+06a09efe60ac72e18e79dcf80f85c515 *man/safe_join.Rd
+302c3c9890e15d273b61ff0f6b746df2 *man/safe_join.data.frame.Rd
 3eea572205c00159edf606206f51afea *man/sort.grouped_df.Rd
 fa5d318c4471765cc73c21a66533496e *man/static.Rd
 8d9b9beabf814fb63d77fc390db803d4 *man/status.Rd
