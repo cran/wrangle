@@ -46,7 +46,11 @@ sort.grouped_df <- function(x, decreasing = FALSE, ...) {
 #' @family util
 #' @return grouped_df
 # @describeIn wrangle
-detect <-  function(x,...)x %>%  ungroup %>%  transmute(...) %>%  group_by(across()) %>%  sort
+detect <-  function(x,...) x %>%  
+  ungroup %>%  
+  transmute(...) %>%  
+  group_by(across(everything())) %>%  
+  sort
 
 
 #' Show unique combinations of items in specified columns
@@ -144,12 +148,12 @@ key.grouped_df <- function(x,...)sapply(groups(x),as.character)
 # @describeIn wrangle
 
 unsorted.grouped_df <- function(x,...){
-  x$original_ <- seq_len(nrow(x))
-  x$leads_ <- lead(x$original_,default=Inf)
-  x$lags_ <- lag(x$original_,default=-Inf)
+  x$original_ <- as.double(seq_len(nrow(x)))
+  x$leads_ <- lead(x$original_, default = Inf)
+  x$lags_ <- lag(x$original_, default = -Inf)
   x %<>% sort
-  x$now_leads_ <- lead(x$original_,default=Inf)
-  x$now_lags_ <- lag(x$original_,default=-Inf)
+  x$now_leads_ <- lead(x$original_, default = Inf)
+  x$now_lags_ <- lag(x$original_, default = -Inf)
   x$static_ <- with(x, leads_ == now_leads_ & lags_ == now_lags_)
   x <- x[order(x$original_),]
   x %<>% filter(static_==FALSE) %>% select(-(original_:static_))
