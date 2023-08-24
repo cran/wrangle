@@ -1,7 +1,7 @@
 Package: wrangle
 Type: Package
 Title: A Systematic Data Wrangling Idiom
-Version: 0.5.10
+Version: 0.6.3
 Author: Tim Bergsma
 Maintainer: Tim Bergsma <bergsmat@gmail.com>
 Description: Supports systematic scrutiny, modification, and integration of
@@ -17,8 +17,8 @@ Description: Supports systematic scrutiny, modification, and integration of
 License: GPL-3
 BugReports: https://github.com/bergsmat/wrangle/issues
 Imports: dplyr (>= 1.0.2), tidyr, magrittr, rlang
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2023-01-10 04:51:31 UTC; tim.bergsma
+Packaged: 2023-08-24 02:41:45 UTC; tim.bergsma
 Repository: CRAN
-Date/Publication: 2023-01-10 08:10:02 UTC
+Date/Publication: 2023-08-24 03:00:02 UTC

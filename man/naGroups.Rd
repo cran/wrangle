@@ -16,6 +16,7 @@ Calculates naGroups.
 }
 \seealso{
 Other naGroups: 
-\code{\link{naGroups.grouped_df}()}
+\code{\link{naGroups.data.frame}()}
 }
 \concept{naGroups}
+\keyword{internal}

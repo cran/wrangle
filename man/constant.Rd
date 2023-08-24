@@ -16,7 +16,7 @@ Identifies constant features of an object.  Generic, with methods for data.frame
 }
 \seealso{
 Other constant: 
-\code{\link{constant.data.frame}()},
-\code{\link{constant.grouped_df}()}
+\code{\link{constant.data.frame}()}
 }
 \concept{constant}
+\keyword{internal}

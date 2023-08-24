@@ -15,9 +15,10 @@ na(x, ...)
 Shows na elements.
 }
 \seealso{
-\code{\link{na.grouped_df}} \code{\link{dup}} \code{\link{weak}} \code{\link{unsorted}}
+\code{\link{na.data.frame}} \code{\link{dup}} \code{\link{weak}} \code{\link{unsorted}}
 
 Other na: 
-\code{\link{na.grouped_df}()}
+\code{\link{na.data.frame}()}
 }
 \concept{na}
+\keyword{internal}

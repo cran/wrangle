@@ -16,6 +16,7 @@ Calculates dupGroups.
 }
 \seealso{
 Other dupGroups: 
-\code{\link{dupGroups.grouped_df}()}
+\code{\link{dupGroups.data.frame}()}
 }
 \concept{dupGroups}
+\keyword{internal}

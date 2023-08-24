@@ -9,25 +9,30 @@
 \arguments{
 \item{x}{object}
 
-\item{...}{grouping columns}
+\item{...}{optional grouping columns (named arguments are ignored)}
 }
 \value{
-data.frame
+data.frame (should be same class as x)
 }
 \description{
-Returns columns of a data.frame whose values do not vary within subsets defined by columns named in \dots.
+Returns columns of a data.frame whose values do not vary within subsets 
+defined by columns named in \dots. Defaults to groups(x) if none supplied, 
+or all columns otherwise.
 }
 \examples{
-constant(Theoph)
-constant(Theoph, Subject) # Wt Dose
+library(dplyr)
+constant(Theoph)                      # data frame with 0 columns and 1 row
+constant(Theoph, Subject)             # Subject Wt Dose Study
 Theoph$Study <- 1
-constant(Theoph)
-constant(Theoph, Study)
-constant(Theoph, Study, Subject)
+constant(Theoph)                      # Study
+constant(Theoph, Study)               # Study
+constant(Theoph, Study, Subject)      # Subject Wt Dose Study
+Theoph <- group_by(Theoph, Subject)
+constant(Theoph)                      # Subject Wt Dose Study
+constant(Theoph, Study)               # Study
 }
 \seealso{
 Other constant: 
-\code{\link{constant.grouped_df}()},
 \code{\link{constant}()}
 }
 \concept{constant}

@@ -24,3 +24,4 @@ Other safe_join:
 \code{\link{safe_join.data.frame}()}
 }
 \concept{safe_join}
+\keyword{internal}

@@ -15,9 +15,10 @@ dup(x, ...)
 Shows duplicate or duplicated elements.
 }
 \seealso{
-\code{\link{dup.grouped_df}} \code{\link{na}} \code{\link{weak}}  \code{\link{unsorted}}
+\code{\link{dup.data.frame}} \code{\link{na}} \code{\link{weak}}  \code{\link{unsorted}}
 
 Other dup: 
-\code{\link{dup.grouped_df}()}
+\code{\link{dup.data.frame}()}
 }
 \concept{dup}
+\keyword{internal}

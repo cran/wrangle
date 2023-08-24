@@ -20,6 +20,7 @@ status(group_by(Theoph, Subject, Time))
 }
 \seealso{
 Other status: 
-\code{\link{status.grouped_df}()}
+\code{\link{status.data.frame}()}
 }
 \concept{status}
+\keyword{internal}

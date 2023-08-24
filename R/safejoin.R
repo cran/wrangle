@@ -1,6 +1,7 @@
 #' Join Data Safely
 #'
 #' Joins data safely.  Generic, with method for data.frame.
+#' @keywords internal
 #' @param x object of dispatch
 #' @param ... arguments to methods
 #' @seealso \code{\link{safe_join.data.frame}}

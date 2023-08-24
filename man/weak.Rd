@@ -15,9 +15,10 @@ weak(x, ...)
 Shows na, duplicate, or duplicated elements.
 }
 \seealso{
-\code{\link{weak.grouped_df}}
+\code{\link{weak.data.frame}}
 
 Other weak: 
-\code{\link{weak.grouped_df}()}
+\code{\link{weak.data.frame}()}
 }
 \concept{weak}
+\keyword{internal}

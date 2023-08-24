@@ -15,9 +15,12 @@ unsorted(x, ...)
 Shows unsorted elements.
 }
 \seealso{
-\code{\link{unsorted.grouped_df}}
+\code{\link{unsorted.data.frame}}
 
 Other unsorted: 
-\code{\link{unsorted.grouped_df}()}
+\code{\link{misplaced.data.frame}()},
+\code{\link{misplaced}()},
+\code{\link{unsorted.data.frame}()}
 }
 \concept{unsorted}
+\keyword{internal}
