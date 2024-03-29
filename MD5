@@ -1,10 +1,10 @@
-1c08efa6488665b913a004508bc7426e *DESCRIPTION
+f4489bb7ca33a46a8ab896700221b153 *DESCRIPTION
 64b3007b78b2484bb52bf7d713d82657 *NAMESPACE
-f8b0138a43aa9becb39b3d1645adf844 *R/constant.R
+9676123dfe574cb2d46716ff48b15b66 *R/constant.R
 70ded72cfc2e399cb5a98af93a33b0fb *R/safejoin.R
 fb73a324bf6a90b2af25a654f94cd1ac *R/wrangle.R
-e62aec4318e801b36974dedff43f6229 *man/constant.Rd
-dd53d484cc5eb263b47807b172438047 *man/constant.data.frame.Rd
+1206d5cde99dfb6c88e1ad6e3956e5e7 *man/constant.Rd
+f1d12fcb09dd1b09c66dd899d1128565 *man/constant.data.frame.Rd
 5379debfe12eb8fddddbce5941ab64b5 *man/detect.Rd
 c40a650a39222ae208c99e9e7f79a510 *man/dup.Rd
 87a0088c0143e6c3534be70db33e6c25 *man/dup.data.frame.Rd
